@@ -10,6 +10,7 @@ root.render(
     <App  color="red" sandeep={()=>
     {
       console.log("ayush ")
+      alert("my react wold")
     }
 
     } />
