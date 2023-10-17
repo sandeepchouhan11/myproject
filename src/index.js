@@ -7,7 +7,7 @@ import reportWebVitals from './reportWebVitals';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App  color="red" sandeep={()=>
+    <App  color="red" onClick={()=>
     {
       console.log("ayush ")
       alert("my react wold")
